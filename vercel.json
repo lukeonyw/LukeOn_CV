@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "luke-on-cv",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "luke-on-cv"
+    }
+  ]
+}
